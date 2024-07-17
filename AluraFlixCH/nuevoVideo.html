@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./videoGlobal.css" />
+    <link rel="stylesheet" href="./nuevoVideo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="nuevo-vdeo-desktop">
+      <header class="nav-bar">
+        <div class="logomain-wrapper">
+          <img
+            class="logomain-icon"
+            loading="lazy"
+            alt=""
+            src="./img/oracleF.png"
+          />
+        </div>
+        <div class="button-container">
+          <div class="button">
+            <div class="background" id="background"></div>
+            <a href="home.html" class="content">home</a>
+          </div>
+          <div class="button1" id="buttonContainer1">
+            <div class="background1"></div>
+            <a href="nuevoVideo.html" class="content1">nuevo video</a>
+          </div>
+        </div>
+      </header>
+      <main class="content2">
+        <section class="form-container">
+          <div class="form-header">
+            <div class="form-title">
+              <div class="card-title">
+                <h1 class="title">Nuevo video</h1>
+              </div>
+              <div class="complete-el-formulario">
+                Complete el formulario para crear una nueva tarjeta de video
+              </div>
+            </div>
+          </div>
+          <div class="divider-parent">
+            <div class="divider">
+              <div class="input"></div>
+            </div>
+            <h2 class="crear-tarjeta">Crear Tarjeta</h2>
+            <div class="divider1">
+              <div class="input1"></div>
+            </div>
+          </div>
+          <div class="form-fieldset">
+            <div class="field-row">
+              <div class="field-column">
+                <div class="field-wrapper">
+                  <div class="label">
+                    <div class="label1">Título</div>
+                  </div>
+                  <div class="inputs-type">
+                    <div class="input2"></div>
+                    <input
+                      class="placeholder"
+                      placeholder="ingrese el título"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="label2">
+                  <div class="label3">Imagen</div>
+                </div>
+              </div>
+              <div class="type-row">
+                <div class="type-column">
+                  <div class="label4">
+                    <div class="label5">Categoria</div>
+                  </div>
+                  <div class="inputs-type1">
+                    <div class="input3"></div>
+                    <img
+                      class="vector-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./img/FlechaA.png"
+                    />
+
+                    <div class="placeholder1">seleccione una categoría</div>
+                  </div>
+                </div>
+                <div class="label-row">
+                  <div class="label6">
+                    <div class="label7">Video</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="placeholder-fieldset">
+              <div class="inputs-type2">
+                <div class="input4"></div>
+                <input
+                  class="placeholder2"
+                  placeholder="el enlace es obligatorio"
+                  type="text"
+                />
+              </div>
+              <div class="inputs-type3">
+                <div class="input5"></div>
+                <div class="placeholder3">ingrese el enlace del video</div>
+              </div>
+            </div>
+          </div>
+          <div class="description-field">
+            <div class="label8">
+              <div class="label9">Descripción</div>
+            </div>
+            <textarea
+              class="input-descripcion"
+              placeholder="¿De qué se trata este vídeo?"
+              rows="{11}"
+              cols="{29}"
+            >
+            </textarea>
+          </div>
+          <div class="actions">
+            
+            <div class="button2" id="buttonContainer">
+              <div class="background2"></div>
+              <a href="home.html" class="content3">Guardar</a>
+            </div>
+
+            <div class="button3" id="buttonContainer1">
+              <div class="background3"></div>
+              <a href="nuevoVideo.html" class="content4">limpiar</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+       <div> <img class="logomain-icon1" alt="" src="./img/oracleF.png" />
+        <p class="copy">&copy Copyright -Gerardo Manuel- 2024.</p></div>
+      </footer>
+    </div>
+
+    <!-- <script>
+      var background = document.getElementById("background");
+      if (background) {
+        background.addEventListener("click", function (e) {
+          window.location.href = "./home-desktop.html";
+        });
+      }
+      
+      var buttonContainer1 = document.getElementById("buttonContainer1");
+      if (buttonContainer1) {
+        buttonContainer1.addEventListener("click", function (e) {
+          window.location.href = "nuevo-vdeo-desktop.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "nuevo-vdeo-desktop.html";
+        });
+      }
+      </script> -->
+  </body>
+</html>
